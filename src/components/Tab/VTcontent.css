@@ -1,0 +1,40 @@
+.section__Jobs-styledContent {
+  position: relative;
+  top: 0%;
+  margin-top: -18%;
+  margin-left: 20%;
+  text-align: left;
+  color: var(--clr-fg-alt);
+}
+
+.section__Jobs-styledContent h4 {
+  color: var(--clr-primary);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.section__Jobs-styledContent h5 {
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  margin-bottom: 30px;
+  color: var(--clr-secondary);
+}
+
+.section__Jobs-styledContent ul {
+  padding-inline-start: 10px;
+  list-style: none;
+}
+
+.section__Jobs-styledContent li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+.section__Jobs-styledContent li::before {
+  content: "▹";
+  color: var(--clr-secondary);
+  display: inline-block;
+  width: 1.5em;
+  margin-left: -1.5em;
+}
